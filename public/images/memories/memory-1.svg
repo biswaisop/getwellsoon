@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sky1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#312e81" />
+      <stop offset="40%" stop-color="#4f46e5" />
+      <stop offset="70%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#fef08a" />
+    </linearGradient>
+    <linearGradient id="peak1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+  </defs>
+  <!-- Morning Sky -->
+  <rect width="800" height="600" fill="url(#sky1)" />
+  <!-- Rising Dawn Sun -->
+  <circle cx="480" cy="380" r="80" fill="#fef08a" opacity="0.85" filter="drop-shadow(0 0 30px #fde047)" />
+  <!-- Distant High Himalayan Peaks -->
+  <polygon points="120,600 240,280 360,600" fill="#4338ca" opacity="0.6" />
+  <polygon points="230,280 240,280 270,360 210,360" fill="#ffffff" opacity="0.8" />
+  <polygon points="320,600 480,220 640,600" fill="#3730a3" opacity="0.7" />
+  <polygon points="460,220 480,220 520,320 440,320" fill="#ffffff" opacity="0.8" />
+  <polygon points="560,600 680,260 800,600" fill="#312e81" opacity="0.6" />
+  <!-- Pine Forest Silhouette -->
+  <polygon points="0,600 0,420 180,480 340,430 520,490 700,440 800,470 800,600" fill="#1e1b4b" />
+  <!-- Winding Trail Path -->
+  <path d="M400,600 Q380,530 430,490 T470,450" stroke="#fde68a" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.9" />
+  <!-- Hiker Silhouette -->
+  <circle cx="432" cy="478" r="5" fill="#f59e0b" />
+  <line x1="432" y1="483" x2="432" y2="497" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" />
+</svg>

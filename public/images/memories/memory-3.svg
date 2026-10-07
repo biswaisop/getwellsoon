@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sky3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="60%" stop-color="#7dd3fc" />
+      <stop offset="100%" stop-color="#fed7aa" />
+    </linearGradient>
+    <linearGradient id="rockGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#64748b" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+  </defs>
+  <!-- Afternoon Sky -->
+  <rect width="800" height="600" fill="url(#sky3)" />
+  <!-- Granite Mountain Pass Silhouette -->
+  <polygon points="0,500 280,240 500,480 800,280 800,600 0,600" fill="url(#rockGrad)" />
+  <!-- Boulder details -->
+  <polygon points="180,600 240,480 340,490 380,600" fill="#475569" stroke="#94a3b8" stroke-width="2" />
+  <polygon points="340,600 420,440 520,460 590,600" fill="#334155" stroke="#94a3b8" stroke-width="2" />
+  <polygon points="540,600 600,490 680,510 740,600" fill="#1e293b" stroke="#64748b" stroke-width="2" />
+  <!-- Stone Cairn (Trail Marker) -->
+  <ellipse cx="280" cy="470" rx="20" ry="8" fill="#94a3b8" />
+  <ellipse cx="280" cy="460" rx="16" ry="6" fill="#cbd5e1" />
+  <ellipse cx="280" cy="452" rx="12" ry="5" fill="#f1f5f9" />
+  <ellipse cx="280" cy="445" rx="8" ry="4" fill="#fbbf24" />
+</svg>
